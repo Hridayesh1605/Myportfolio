@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hridayesh More</title>
+    <meta name="title" content="Hridayesh More">
+    <meta name="discription" content="This is a simple portfolio website to showcase my skill.">
+    <link rel="shortcut icon" href="./assets/images/loading.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="active">
+    <div class="loading" data-loading>
+        <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img">
+        <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+                    </li>
+                    <li>
+                        <a href="#aboutme" class="navbar-link" data-nav-link>About Me</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link>Certificates</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link>Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn:hover">
+                <span class="span">Get A Quote</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+            </button>
+
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <div class='profile-container'>
+        <div class='profile-parent'>
+            <div class='profile-details'>
+                <div class='colz'>
+                    <div class='colz-icon'>
+
+                        <a href="https://www.facebook.com/hridayesh.more.7" target="_blank"
+                            class="btn-social btn-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+
+                        <a href="https://github.com/Hridayesh1605" target="_blank" class="btn-social btn-github"><i
+                                class="fa-brands fa-github"></i></a>
+
+                        <a href="https://www.instagram.com/hridayeshmore/" target="_blank"
+                            class="btn-social btn-instagram"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a href="https://www.linkedin.com/in/hridayesh-more-8b60a2183/" target="_blank"
+                            class="btn-social btn-linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="profile-details-name">
+                    <span class="primary">
+                        Hello, I'M <span class="hl">Hridayesh</span>
+                    </span>
+
+                </div>
+                <div class="profile-details-role">
+                    <span class="primary-text">
+                        <h6>I'm a <span class="auto-type"></span> </h6>
+
+                        <span class='profile-role-tagline'>
+                            Building Application With Front end operation.
+                        </span>
+                    </span>
+                </div>
+                <div class='profile-options'>
+
+                    <a href='Resume.pdf' download='Hridayesh Resume.pdf'>
+                        <button class='btn hl-btn'>Download Resume<i class="fa-solid fa-cloud-arrow-down"></i></button>
+                        <a href="https://www.linkedin.com/in/hridayesh-more-8b60a2183/">
+                            <button class='btn primary-btn'>
+                                Hire Me
+                            </button></a>
+
+                    </a>
+                </div>
+
+            </div>
+            <div class='profile-picture'>
+                <div class='profile-picture-background' data-tilt>
+                    <h2>Hridayesh More</h2>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- project -->
+    <div class="pro-ti">
+        <hr align="right" />
+        <p>Projects</p>
+        <hr>
+
+    </div>
+
+    <div class="wrapper">
+
+        <div class="card">
+            <div class="img-card">
+                <img src="./assets/images/project1.png" alt="Gym App">
+                <a href="https://gym-g870cyn1p-hridayesh1605.vercel.app/" class="btn">View</a>
+
+            </div>
+            <div class="info">
+                <h1>GYM App</h1>
+                <p>A Responsive and user-friendly website to find exercise and its step-wise tutorial</p>
+                <a href="https://github.com/Hridayesh1605/gym_app.git" class="pro-details-btn">Source Code</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="./assets/images/project2.png" alt="">
+                <a href="https://precious-piroshki-d40ef1.netlify.app/" class="btn">View</a>
+
+            </div>
+            <div class="info">
+                <h1>Typing Test</h1>
+                <p>A simple typing test that calculates the accuracy and time required to type a certain paragraph</p>
+                <a href="www.google.com" class="pro-details-btn">Source Code</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="./assets/images/project3.png" alt="">
+                <a href="https://whatsapp-clone-6fe31.firebaseapp.com/" class="btn">View</a>
+
+            </div>
+            <div class="info">
+                <h1>Whatsapp clone</h1>
+                <p class="pro-text">A clone of Whatsapp app , in which we can login in perticular account and send or recieve message</p>
+                <a href="https://github.com/Hridayesh1605/whatsappClone" class="pro-details-btn">Source Code</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Me -->
+    <main>
+        <div class="pro-ti myinfo-title">
+            <hr />
+            <p>About Me</p>
+            <hr>
+
+        </div>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Hridayesh More" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Hridayesh More">Hridayesh S. More</h1>
+                    <p class="title">
+                        Web Developer
+                    </p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down">
+                    </ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator">
+
+                </div>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                Email
+                            </p>
+                            <a href="mailto:hridayeshsmore@gmail.com" class="contact-link">hridayeshsmore@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                Phone
+                            </p>
+                            <a href="Ph:7738756301" class="contact-link">7738756301</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                Birthday
+                            </p>
+                            <time datetime="2000-05-16">May 16, 2000</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                Location
+                            </p>
+                            <address>Mumbai,Maharashtra</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+            </div>
+            </div>
+        </aside>
+        <div class="main-content">
+            <nav class="nav hide">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <button class="nav-link active2" data-na-link>About
+
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-na-link>Education
+
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-na-link>Skills
+
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-na-link>Project</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-na-link>Certificates</button>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">
+                        About
+                    </h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        My name is Hridayesh,I am graduated in Bachelors of Engineering in Information Technology from Vidyavardhinis College of Engineering and technology.I live in Mumbai.
+                    </p>
+                    <p>
+                        Highly motivated and skilled Fresher Information Technology with a passion for developing innovative software solutions. Proficient in various programming languages including HTML,CSS,JS, Python, and Java, with experience in developing web, designing databases, and debugging software. Collaborative team player with a proven track record of delivering high-quality work and achieving exceptional results.
+                    </p>
+                </section>
+            </article>
+
+            <article class="edu" data-page="education">
+                <header>
+                    <h2 class="h2 article-title">Education</h2>
+                </header>
+                <secton class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+
+                        </div>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Matriculation(X),ST. Paul High School</h4>
+                            <span>March 2015 - March 2016</span>
+                            <p class="timeline-text">
+                                Successfully Pass with 74%
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Intermediate(XII),Shri L.P.Raval Jr. College of Commerce
+                                & Science</h4>
+                            <span>February 2017 - February 2018</span>
+                            <p class="timeline-text">
+                                Successfully Pass with 68.15%
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering, Vidyavardhini's College of
+                                Engineering and Technology</h4>
+                            <span>May 2018 - May 2022</span>
+                            <p class="timeline-text">
+                                Successfully Pass with CGPI 7.38
+                            </p>
+                        </li>
+                    </ol>
+
+                </secton>
+            </article>
+
+            <article class="skill" data-page="skills">
+                <header>
+                    <h2 class="h2 article-title">Skills</h2>
+                </header>
+
+                <ul class="skills-list content-card">
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">HTML</h5>
+                            <data value="100">100%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:100%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">CSS</h5>
+                            <data value="95">95%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:95%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Javascript</h5>
+                            <data value="75">75%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:75%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">React</h5>
+                            <data value="70">70%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:70%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">SQL</h5>
+                            <data value="80">80%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:80%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Python</h5>
+                            <data value="50">50%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:50%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Photoshop</h5>
+                            <data value="90">90%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width:90%;"></div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </article>
+
+            <article class="moreProj" data-page="project">
+                <header>
+                    <h2 class="h2 article-title">
+                        More Projects
+                    </h2>
+                </header>
+
+                <div class="project-cont">
+                    <div class="filter_buttons">
+                        <button class=" pro_btn active1" data-name="all">Show all</button>
+                        <button class=" pro_btn" data-name="html">HTML</button>
+                        <button class=" pro_btn" data-name="react">React</button>
+                        <button class=" pro_btn" data-name="sql">SQL</button>
+                    </div>
+
+
+                    <div class="filterable_cards">
+                        <div class="more-pro-card" data-name="html">
+                            <div class="pro-img-card">
+                            <img src="./assets/images/html1.png" alt="">
+                            <a href="https://hridayesh1605.github.io/youtube_clone/" class="btn">Read more</a>    
+                            </div>
+                            
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    HTML
+                                </h6>
+                                <p class="more-pro-card_text">Youtube clone using html css</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="more-pro-card" data-name="html">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/html2.png" alt="">
+                                <a href="https://splendid-shortbread-4f96ae.netlify.app/" class="btn">Read more</a>    
+                                </div> 
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    HTML
+                                </h6>
+                                <p class="more-pro-card_text">Memory game using js</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="more-pro-card" data-name="html">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/html3.png" alt="">
+                                <a href="https://664ca145c1b6a7382e4a9c2a--wondrous-horse-137d19.netlify.app/" class="btn">Read more</a>    
+                                </div> 
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    HTML
+                                </h6>
+                                <p class="more-pro-card_text">Animation of card while hover</p>
+                            </div>
+                        </div>
+
+
+                        <div class="more-pro-card" data-name="html">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/html4.png" alt="">
+                                <a href="https://664ca1a03291e729697de5d1--lucky-queijadas-b6c309.netlify.app/" class="btn">Read more</a>    
+                                </div>
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    HTML
+                                </h6>
+                                <p class="more-pro-card_text">Login form using html css</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="more-pro-card" data-name="react">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/react1.png" alt="">
+                                <a href="https://inspiring-beijinho-4bce36.netlify.app/" class="btn">Read more</a>    
+                                </div>
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    react
+                                </h6>
+                                <p class="more-pro-card_text">Getting wheather of city from api</p>
+                            </div>
+                        </div>
+
+                        <div class="more-pro-card" data-name="react">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/react2.png" alt="">
+                                <a href="https://musical-genie-d09db1.netlify.app/" class="btn">Read more</a>    
+                                </div>
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    react
+                                </h6>
+                                <p class="more-pro-card_text">Clone of google keep</p>
+                            </div>
+                        </div>
+
+                        <div class="more-pro-card" data-name="react">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/react3.png" alt="">
+                                <a href="https://earnest-boba-656628.netlify.app/" class="btn">Read more</a>    
+                                </div>
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    react
+                                </h6>
+                                <p class="more-pro-card_text">List of top netflix series</p>
+                            </div>
+                        </div>
+
+                        <div class="more-pro-card" data-name="react">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/react4.png" alt="">
+                                <a href="https://master--transcendent-biscuit-95cf9c.netlify.app/" class="btn">Read more</a>    
+                                </div>
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    react
+                                </h6>
+                                <p class="more-pro-card_text">To do list</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="more-pro-card" data-name="sql">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/sql1.jpg" alt="">
+                                <a href="sql1.pdf" class="btn">Read more</a>    
+                                </div>  
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    sql
+                                </h6>
+                                <p class="more-pro-card_text">Ambulance booking system</p>
+                            </div>
+                        </div>
+
+                        <div class="more-pro-card" data-name="sql">
+                            <div class="pro-img-card">
+                                <img src="./assets/images/sql2.png" alt="">
+                                <a href="sql2.pdf" class="btn">Read more</a>    
+                                </div>  
+                            <div class="more-pro-card_body">
+                                <h6 class="more-pro-card_title">
+                                    sql
+                                </h6>
+                                <p class="more-pro-card_text">ITvedant student database</p>
+                            </div>
+                        </div>
+
+
+
+                        
+
+
+
+                        
+                    </div>
+
+                </div>
+            </article>
+
+
+
+            <article class="certi" data-page="certificates">
+                <header>
+                    <h2 class="h2 article-title">
+                        Certificates
+                    </h2>
+                </header>
+
+                Work in progress
+            </article>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Enthusiatic Developer", "Front-end Developer", "SQL Developer", "ReactJs Developer", "Python Developer", "Java Developer", "Designer"],
+            typeSpeed: 100,
+            backSpeed: 150,
+            looped: true
+        })
+    </script>
+</body>
+
+</html>
