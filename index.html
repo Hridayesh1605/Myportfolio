@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
@@ -45,6 +46,8 @@
                 <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
             </a>
 
+            
+
             <nav class="navbar" data-navbar>
                 <div class="navbar-top">
                     <a href="#" class="logo">
@@ -65,10 +68,10 @@
                         <a href="#aboutme" class="navbar-link" data-nav-link>About Me</a>
                     </li>
                     <li>
-                        <a href="#home" class="navbar-link" data-nav-link>Certificates</a>
+                        <a href="#aboutme" class="navbar-link" data-nav-link>Certificates</a>
                     </li>
                     <li>
-                        <a href="#home" class="navbar-link" data-nav-link>Contact me</a>
+                        <a href="#contactme" class="navbar-link" data-nav-link>Contact me</a>
                     </li>
                 </ul>
             </nav>
@@ -87,7 +90,10 @@
         </div>
     </header>
 
-    <div class='profile-container'>
+
+
+
+    <section class='profile-container' id="home">
         <div class='profile-parent'>
             <div class='profile-details'>
                 <div class='colz'>
@@ -143,9 +149,12 @@
         </div>
 
 
-    </div>
+    </section>
 
     <!-- project -->
+     <section id="projects">
+
+     
     <div class="pro-ti">
         <hr align="right" />
         <p>Projects</p>
@@ -153,7 +162,7 @@
 
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" >
 
         <div class="card">
             <div class="img-card">
@@ -200,10 +209,11 @@
             </div>
         </div>
     </div>
+</section>
 
 
     <!-- About Me -->
-    <main>
+    <main id="aboutme">
         <div class="pro-ti myinfo-title">
             <hr />
             <p>About Me</p>
@@ -663,11 +673,43 @@
                         Certificates
                     </h2>
                 </header>
+                <div class="img-certi-cont">
+                    <div class="certi-contents">
+                        
+                        <img src="./assets/images/gallery-1.jpg" alt="" class="certi-img">
+                        <a href="sql2.pdf" class="btn" target=”_blank”>Certificate name</a>
 
-                Work in progress
+                    </div>
+                    <div class="certi-contents">
+                        
+                        <img src="./assets/images/gallery-1.jpg" alt="" class="certi-img">
+                        <a href="sql2.pdf" class="btn" target=”_blank”>Read more</a>
+
+                    </div>
+                    <div class="certi-contents">
+                        
+                        <img src="./assets/images/gallery-1.jpg" alt="" class="certi-img">
+                        <a href="sql2.pdf" class="btn" target=”_blank”>Read more</a>
+
+                    </div>
+                    <div class="certi-contents">
+                        
+                        <img src="./assets/images/gallery-1.jpg" alt="" class="certi-img">
+                        <a href="sql2.pdf" class="btn" target=”_blank”>Read more</a>
+
+                    </div>
+                    <div class="certi-contents">
+                        
+                        <img src="./assets/images/gallery-1.jpg" alt="" class="certi-img">
+                        <a href="sql2.pdf" class="btn" target=”_blank”>Read more</a>
+
+                    </div>
+                    
+                    
+                </div>
             </article>
         </div>
-        <section>
+        <section id="contactme">
             <div class="pro-ti myinfo-title" style="margin-top: 30px;">
                 <hr />
                 <p>Contact Me</p>
@@ -681,10 +723,10 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="topic">Address</div>
                             <div class="txt-1">
-                                Surkhet,NP12
+                                Krishna Nagar
                             </div>
                             <div class="txt-2">
-                                Birendranagar 0
+                                Parel, Mumbai
                             </div>
                         </div>
                         <div class="Phone details">
