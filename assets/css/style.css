@@ -1733,6 +1733,7 @@ address{
 }
 
 .certi-contents{
+  display: block;
   width: 200px;
   height: 100px;
   position: relative;
@@ -1800,6 +1801,10 @@ address{
   font-size: 14px;
   font-weight: bold;
   opacity: 1;
+}
+
+.certi-img-cont{
+  margin-bottom: -18px;
 }
 
 
